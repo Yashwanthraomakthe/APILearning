@@ -1,0 +1,22 @@
+package RestAssured;
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import org.testng.annotations.Test;
+
+public class CookiesValidations {
+
+	// Ad49MVEXfwnfOhDg_rDLIIBL_RDmFfH5vL2URXIKlmpqnw0jXU5D5PYENA
+	@Test(priority = 1)
+	void testCookies() {
+		given()
+
+				.when().get("https://www.google.com/")
+
+				.then().cookie("AEC", "Ad49MVHiSNy7GyhmyYwq-uVmy_gCHbejKkpurKmGQEd4Q6SSEkbulYI5ZkE").statusCode(200);
+
+	}
+
+}

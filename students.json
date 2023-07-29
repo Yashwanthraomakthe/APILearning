@@ -1,0 +1,99 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "kim",
+      "location": "US",
+      "phone": "8897053277",
+      "cources": [
+        "pytho",
+        "appium"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "kim",
+      "location": "US",
+      "phone": "8897053277",
+      "cources": [
+        "pytho",
+        "appium"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "kim",
+      "location": "US",
+      "phone": "8897053277",
+      "cources": [
+        "pytho",
+        "appium"
+      ]
+    },
+    {
+      "courses": [
+        "c",
+        "c++"
+      ],
+      "phone": "8897053277",
+      "name": "scot",
+      "location": "hyd",
+      "id": 4
+    },
+    {
+      "courses": [
+        "c",
+        "c++"
+      ],
+      "phone": "8897053277",
+      "name": "scot",
+      "location": "hyd",
+      "id": 5
+    },
+    {
+      "empty": false,
+      "mapType": "java.util.HashMap",
+      "id": 6
+    },
+    {
+      "empty": false,
+      "mapType": "java.util.HashMap",
+      "id": 7
+    },
+    {
+      "courses": [
+        "core",
+        "java"
+      ],
+      "phone": "8897053277",
+      "name": "scot",
+      "location": "mumbai",
+      "id": 8
+    },
+    {
+      "name": "dinky",
+      "location": "Pune",
+      "phone": "9014154738",
+      "cources": [
+        "Selenium",
+        "java"
+      ],
+      "id": 9
+    },
+    {
+      "empty": false,
+      "mapType": "java.util.HashMap",
+      "id": 10
+    },
+    {
+      "cources": [
+        "pytho",
+        "appium"
+      ],
+      "phone": "8897053277",
+      "name": "kim",
+      "location": "US",
+      "id": 11
+    }
+  ]
+}
